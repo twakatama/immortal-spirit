@@ -9,13 +9,13 @@ exercise activities. This observation was made based on studying activity by dis
 were applied to this project.
 
 1. Ask
-The methodology for this analysis included reading and questioning the requirements. That allowed the analyst to develop a clear statement of the business task: Figure out 
-how consumers are using non-Bellabeat smart devices, then apply the findings to one Bellabeat product.
+The methodology for this analysis included reading and questioning the requirements. That allowed the analyst to develop a clear statement of the business task: Figure 
+out how consumers are using non-Bellabeat smart devices, then apply the findings to one Bellabeat product.
 
 2. Prepare
 The daily activity merged sheet includes various types of activities and data about calories. The heart rate sheet captures multiple values per minute. The sleep day sheet 
-displays hours slept and time spent in bed per day. Other health trackers such as counted steps were part of the dataset. The analyst chose to focus on activity by distance 
-and activity by minutes.
+displays hours slept and time spent in bed per day. Other health trackers such as counted steps were part of the dataset. The analyst chose to focus on activity by 
+distance and activity by minutes.
 
 3. Process
 BigQuery was utilized to  
