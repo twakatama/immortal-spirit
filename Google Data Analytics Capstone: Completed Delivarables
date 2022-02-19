@@ -1,22 +1,29 @@
 # immortal-spirit
 Google Data Analytics Capstone Project using Fitbit user data.
 
-This case study provides an analysis of fitness tracker data involving 32 participants. It is based on Fitbit devices and how individuals used them over a one month period. Bellabeat spearheaded this project in order come up with a new health tracking product. Preferred tools for this project include SQL and Tableau.
+This case study provides an analysis of fitness tracker data involving 32 participants. It is based on Fitbit devices and how individuals used them over a one month period. 
+Bellabeat spearheaded this project in order come up with a new health tracking product. Preferred tools for this project include SQL and Tableau.
 
-This case study is part of the Google Data Analytics Professional Certificate offered through Coursera.   We discovered that individuals were most engaged with light exercise activities. This observation was made based on studying activity by distance and activity by minutes. The course divided data analysis into six core phases which were applied to this project.
+This case study is part of the Google Data Analytics Professional Certificate offered through Coursera.   We discovered that individuals were most engaged with light exercise
+activities. This observation was made based on studying activity by distance and activity by minutes. The course divided data analysis into six core phases which were 
+applied to this project.
 
 1. Ask
-The methodology for this analysis included reading and questioning the requirements. That allowed the analyst to develop a clear statement of the business task: Figure out how consumers are using non-Bellabeat smart devices, then apply the findings to one Bellabeat product.
+The methodology for this analysis included reading and questioning the requirements. That allowed the analyst to develop a clear statement of the business task: Figure out 
+how consumers are using non-Bellabeat smart devices, then apply the findings to one Bellabeat product.
 
 2. Prepare
-The daily activity merged sheet includes various types of activities and data about calories. The heart rate sheet captures multiple values per minute. The sleep day sheet displays hours slept and time spent in bed per day. Other health trackers such as counted steps were part of the dataset. The analyst chose to focus on activity by distance and activity by minutes.
+The daily activity merged sheet includes various types of activities and data about calories. The heart rate sheet captures multiple values per minute. The sleep day sheet 
+displays hours slept and time spent in bed per day. Other health trackers such as counted steps were part of the dataset. The analyst chose to focus on activity by distance 
+and activity by minutes.
 
 3. Process
-BigQuery  was utilized to  
-- View the daily_Activity data 
-- Sorted by the ID and date.
--Wrote a query and removed the following columns: ActivityDate, TotalSteps, TotalDistance, LoggedActivitiesDistance, VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes, and SedentaryMinutes.  The results were also ordered.
--Leaving the following columns: Id, TrackerDistance, VeryActiveDistance, ModeratelyActiveDistance, LightActiveDistance, SedentaryActiveDistance
+BigQuery was utilized to  
+     - View the daily_Activity data 
+     - Sort by the ID and date.
+     -Wrote a query and removed the following columns: ActivityDate, TotalSteps, TotalDistance, LoggedActivitiesDistance, VeryActiveMinutes, FairlyActiveMinutes, 
+      LightlyActiveMinutes, and SedentaryMinutes.  The results were also ordered.
+          -Leaving the following columns: Id, TrackerDistance, VeryActiveDistance, ModeratelyActiveDistance, LightActiveDistance, SedentaryActiveDistance
 
 SELECT
    Id, ActivityDate, TrackerDistance, VeryActiveDistance, ModeratelyActiveDistance, LightActiveDistance, SedentaryActiveDistance
@@ -35,7 +42,9 @@ ORDER BY
     Id, ActivityDate;
 
 4. Analyze
-Analysis of the following areas were completed in the following areas: Activity by distance and activity over time in minutes. The activity by distance and over time categories were broken down into the following active subcategories: Very, fairly/moderate, light, and sedentary. Both categories revealed that the light active subcategories had the highest counts.
+Analysis of the following areas were completed in the following areas: Activity by distance and activity over time in minutes. The activity by distance and over time 
+categories were broken down into the following active subcategories: Very, fairly/moderate, light, and sedentary. Both categories revealed that the light active 
+subcategories had the highest counts.
 
 5. Share
 Analysis shows that the light active subcategories had the highest counts. The visualization included two sheets and one dashboard. It can be viewed here:
@@ -43,4 +52,5 @@ Analysis shows that the light active subcategories had the highest counts. The v
 https://public.tableau.com/views/GoogleDataAnalyticsProfessionalCapstoneBellaBeat/active_distance?:language=en-US&:display_count=n&:origin=viz_share_link
 
 6. Act
-Insights from the analysis show that individuals were most engaged in the light exercise activities. This suggests that attention should be paid in this area. Additional research should be conducted to develop a fitness tracking product geared towards light physical exercise.
+Insights from the analysis show that individuals were most engaged in the light exercise activities. This suggests that attention should be paid in this area. Additional 
+research should be conducted to develop a fitness tracking product geared towards light physical exercise.
