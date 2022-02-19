@@ -4,9 +4,9 @@ Google Data Analytics Capstone Project using Fitbit user data.
 This case study provides an analysis of fitness tracker data involving 32 participants. It is based on Fitbit devices and how individuals used them over a one month period. 
 Bellabeat spearheaded this project in order come up with a new health tracking product. Preferred tools for this project include SQL and Tableau.
 
-This case study is part of the Google Data Analytics Professional Certificate offered through Coursera.   We discovered that individuals were most engaged with light exercise
-activities. This observation was made based on studying activity by distance and activity by minutes. The course divided data analysis into six core phases which were 
-applied to this project.
+This case study is part of the Google Data Analytics Professional Certificate offered through Coursera.   We discovered that individuals were most engaged with light 
+exercise activities. This observation was made based on studying activity by distance and activity by minutes. The course divided data analysis into six core phases which 
+were applied to this project.
 
 1. Ask
 The methodology for this analysis included reading and questioning the requirements. That allowed the analyst to develop a clear statement of the business task: Figure out 
