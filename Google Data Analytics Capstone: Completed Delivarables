@@ -1,20 +1,20 @@
 # immortal-spirit
 Google Data Analytics Capstone Project using Fitbit user data.
 
-This case study provides an analysis of fitness tracker data involving 32 participants. It is based on Fitbit devices and how individuals used them over a one month period. 
-Bellabeat spearheaded this project in order come up with a new health tracking product. Preferred tools for this project include SQL and Tableau.
+This case study provides an analysis of fitness tracker data involving 32 participants. It is based on Fitbit devices and how individuals used them over a one month 
+period. Bellabeat spearheaded this project in order come up with a new health tracking product. Preferred tools for this project include SQL and Tableau.
 
-This case study is part of the Google Data Analytics Professional Certificate offered through Coursera.   We discovered that individuals were most engaged with light 
-exercise activities. This observation was made based on studying activity by distance and activity by minutes. The course divided data analysis into six core phases which 
-were applied to this project.
+This case study is part of the Google Data Analytics Professional Certificate offered through Coursera. We discovered that individuals were most engaged with light 
+exercise activities. This observation was made based on studying activity by distance and activity by minutes. The course divided data analysis into six core phases 
+which were applied to this project.
 
 1. Ask
 The methodology for this analysis included reading and questioning the requirements. That allowed the analyst to develop a clear statement of the business task: Figure 
 out how consumers are using non-Bellabeat smart devices, then apply the findings to one Bellabeat product.
 
 2. Prepare
-The daily activity merged sheet includes various types of activities and data about calories. The heart rate sheet captures multiple values per minute. The sleep day sheet 
-displays hours slept and time spent in bed per day. Other health trackers such as counted steps were part of the dataset. The analyst chose to focus on activity by 
+The daily activity merged sheet includes various types of activities and data about calories. The heart rate sheet captures multiple values per minute. The sleep day
+sheet displays hours slept and time spent in bed per day. Other health trackers such as counted steps were part of the dataset. The analyst chose to focus on activity by 
 distance and activity by minutes.
 
 3. Process
